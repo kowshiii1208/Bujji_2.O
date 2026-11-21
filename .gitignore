@@ -1,0 +1,36 @@
+# Environment & Secret Variables (NEVER commit your personal keys!)
+.env
+.env.local
+
+# User Personal Data
+user_notes.json
+*.log
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE Configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# OS Specific
+Thumbs.db
+Desktop.ini
+.DS_Store
